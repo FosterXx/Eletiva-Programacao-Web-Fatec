@@ -7,7 +7,7 @@
 </head>
 <body>
     <h2>Projeto COnsulta API Pokemon</h2>
-    <form action="resultado2.php" method="post">
+    <form action="resultado-2.php" method="post">
         <label for="pokemon">Informe o código da pokemon</label><br><br>
         <input type="number" name="pokemon" id="pokemon" required><br><br>
         <button type="submit">Buscar</button>
