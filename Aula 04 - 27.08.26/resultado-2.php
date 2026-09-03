@@ -19,6 +19,6 @@
     echo '<img src="'. $dadosRetornados["sprites"]["back_default"].'"><br><br>';
     echo "Peso do pokemon: ". $dadosRetornados["weight"]."<br><br>";
     echo "Altura do pokemon: ". $dadosRetornados["height"]."<br><br>";
-    echo "Tipo: ". $dadosRetornados["types"]["type"]["name"]."<br><br>";
+    echo "Tipo: ". $dadosRetornados["types"][0]["type"]["name"]."<br><br>";
     echo "<a href='./index2.php'>Voltar</a>";
 ?>
